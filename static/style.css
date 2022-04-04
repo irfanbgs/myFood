@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 /* CSS Reset */
 *{
     margin: 0;
@@ -71,7 +74,7 @@ html{
 }
 #home::before{
     content: "";
-    background: url(/img/bg2.jpg) no-repeat center center/cover;
+    background: url(../static/img/bg2.jpg) no-repeat center center/cover;
     position: absolute;
     top:0px;
     left:0px;
@@ -81,12 +84,12 @@ html{
     opacity: 0.8;
 }
 #home h1{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-bottom: 28px;
 }
 #home p{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 1.2rem;
     margin-top: 8px;
@@ -118,7 +121,7 @@ html{
 #client-section::before{
    content: "";
    position: absolute;
-    background: url(/img/bg.jpg) no-repeat center center/cover;
+    background: url(../static/img/bg.jpg) no-repeat center center/cover;
     width: 100%;
     height: 344px;
     z-index: -1;
@@ -144,7 +147,7 @@ html{
 #contact::before{
     content: "";
     position: absolute;
-    background: url(/img/contact.png) no-repeat center center/cover;
+    background: url(../static/img/contact.png) no-repeat center center/cover;
     width: 100%;
     height: 100%;
     /* height: 344px; */
@@ -160,10 +163,12 @@ html{
 }
 #contact-box input,
  #contact-box textarea{
-     width: 100%;
-     padding: 0.5rem;
-     border-radius: 9px;
-     font-size: 1.1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 1.1rem;
+    margin: 8px 2px
  }
  #contact-box form{
      width: 40%;
