@@ -172,7 +172,19 @@ html{
     font-family: 'Bree Serif', serif;
      font-size: 1.3rem;
  }
-
+.form-group button{
+    text-align: center;
+    width: 100%;
+    background: grey;
+    color: white;
+    margin: 7px auto;
+    padding: 7px 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /* Footer Section */
 .footer{
     background-color: black;
